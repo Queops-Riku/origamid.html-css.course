@@ -1,0 +1,490 @@
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
+}
+
+.topo {
+  grid-template-columns: 1fr 1fr;
+  flex-wrap: wrap;
+  padding-top: 3rem;
+  max-width: 2500px;
+  display: grid;
+}
+
+.marca {
+  padding-left: 3rem;
+}
+
+.nav {
+  flex-wrap: wrap;
+  justify-content: right;
+}
+
+.navegacao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  gap: 5rem;
+  padding-top: 0.5rem;
+  padding-right: 7rem;
+}
+
+.navegacao a {
+  color: black;
+}
+
+.navegacaoItem {
+  display: block;
+  text-align: right;
+  justify-items: right;
+  flex-wrap: wrap;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.perfil {
+  grid-template-columns: 1fr 2fr;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 4rem;
+  max-width: 2500px;
+  display: grid;
+}
+
+.perfil img {
+  max-width: 700px;
+  max-height: 750px;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+
+.textoPerfil {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-left: 6rem;
+  position: relative;
+}
+
+.textoPerfil h1::before {
+  content: "";
+  display: block;
+  background-image: url(./img/detalhe.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -999;
+  height: 10.2rem;
+  width: 10.2rem;
+  top: 2.6rem;
+  left: 2.6rem;
+  position: absolute;
+}
+
+.textoPerfil h1 {
+  font-size: 6rem;
+  max-width: 14ch;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.textoPerfil h2 {
+  font-size: 2rem;
+  color: rgb(68, 68, 68);
+}
+
+.experienciaPrincipal {
+  grid-template-columns: 1fr 2fr;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 4rem;
+  max-width: 2500px;
+  display: grid;
+}
+
+.expTexto h2 {
+  font-size: 8rem;
+  max-width: 3em;
+  color: rgb(192, 192, 192);
+  word-break: break-word;
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+
+.experiencia {
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 4rem;
+  max-width: 2500px;
+  display: grid;
+}
+
+.expDescricao {
+  padding-left: 1rem;
+  font-size: 2rem;
+  max-width: 60ch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.expContainer1 {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  background-color: rgb(231, 231, 231);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  max-height: 11rem;
+  position: relative;
+}
+
+.expContainerTexto {
+  padding-left: 1rem;
+}
+
+.expContainerTexto h2 {
+  font-size: 2rem;
+  max-width: 63ch;
+}
+
+.expContainerTexto h3 {
+  font-size: 1.2rem;
+  max-width: 50ch;
+}
+
+.listaTecnologias {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-top: 0.5rem;
+}
+
+.expTecnologias {
+  background-color: white;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+}
+
+.expContainer2 {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  background-color: rgb(231, 231, 231);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  max-height: 11rem;
+  position: relative;
+}
+
+.expContainer3 {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  background-color: rgb(231, 231, 231);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  max-height: 11rem;
+  position: relative;
+}
+
+.expContainer1 .expContainerTexto h3::before {
+  content: "2045";
+  width: 0.2rem;
+  height: 2rem;
+  position: absolute;
+  top: 1rem;
+  left: -4rem;
+  z-index: 999;
+}
+
+.expContainer1 .expContainerTexto h2::before {
+  content: "";
+  width: 0.25rem;
+  height: 2rem;
+  background-color: rgb(0, 170, 0);
+  position: absolute;
+  top: 1rem;
+  left: -0.1rem;
+  z-index: 999;
+}
+
+.expContainer2 .expContainerTexto h3::before {
+  content: "2044/45";
+  width: 0.6rem;
+  height: 2rem;
+  position: absolute;
+  top: 1rem;
+  left: -6rem;
+  z-index: 999;
+}
+
+.expContainer2 .expContainerTexto h2::before {
+  content: "";
+  width: 0.25rem;
+  height: 2rem;
+  background-color: rgb(0, 170, 0);
+  position: absolute;
+  top: 1rem;
+  left: -0.1rem;
+  z-index: 999;
+}
+
+.expContainerTecnologias h2 {
+  padding-left: 2.2rem;
+  font-weight: bold;
+}
+
+.expContainer3 .expContainerTexto h3::before {
+  content: "2044";
+  width: 0.2rem;
+  height: 2rem;
+  position: absolute;
+  top: 1rem;
+  left: -4rem;
+  z-index: 999;
+}
+
+.expContainer3 .expContainerTexto h2::before {
+  content: "";
+  width: 0.25rem;
+  height: 2rem;
+  background-color: rgb(0, 170, 0);
+  position: absolute;
+  top: 1rem;
+  left: -0.1rem;
+  z-index: 999;
+}
+
+.formacaoPrincipal {
+  background-color: rgb(32, 32, 32);
+  grid-template-columns: 1fr 2fr;
+  display: grid;
+}
+
+.formacaoTexto h2 {
+  font-size: 8rem;
+  max-width: 3.5em;
+  color: rgb(0, 0, 0);
+  word-break: break-word;
+  padding-left: 4rem;
+}
+
+.formacao {
+  grid-template-rows: 1fr 1fr 1fr;
+  display: grid;
+  padding-left: 5rem;
+}
+
+.formacaoDescricao {
+  color: rgb(199, 199, 199);
+  font-size: 1.3rem;
+  max-width: 60ch;
+  padding-top: 6rem;
+}
+
+.formacaoContainers {
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  margin-top: 1rem;
+}
+
+.formacaoContainer {
+  background-color: black;
+  border-radius: 1rem;
+  max-height: 15rem;
+  max-width: 20rem;
+}
+
+.formacaoContainerTexto {
+  padding-left: 1.5rem;
+  margin: 0 auto;
+  padding-bottom: 0rem;
+  position: relative;
+  gap: 2rem;
+}
+
+.formacaoContainerTexto h2 {
+  color: rgb(255, 255, 255);
+
+  font-size: 1.5rem;
+  max-width: 10.5em;
+  word-break: break-word;
+  display: flex;
+}
+
+.formacaoContainerTexto h3 {
+  color: rgb(189, 189, 189);
+  font-size: 1.5rem;
+  max-width: 10.5em;
+  word-break: break-word;
+}
+
+.formacaoContainerTexto h2::before {
+  content: "";
+  width: 0.25rem;
+  height: 1.5rem;
+  background-color: rgb(0, 199, 0);
+  position: absolute;
+  top: 3.3rem;
+  left: -0.2rem;
+  z-index: 999;
+}
+
+.paddingTexto {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* TEM QUE ARRUMAR DEPOIS PRA FICAR NA ESQUERDA EM BAIXO */
+  align-items: flex-start;
+}
+
+.formacaoExtras {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  position: relative;
+}
+
+.formacaoExtras h2 {
+  color: gray;
+  font-size: 1.3rem;
+}
+
+.formacaoExtras .iconeCursos::before {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url(./img/cursos.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 1rem;
+  left: -2.5rem;
+  z-index: 999;
+}
+
+.formacaoExtras .tempoCursos1::after {
+  content: "56h";
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  top: 4rem;
+  right: 2rem;
+  color: gray;
+  z-index: 999;
+}
+
+.formacaoExtras .tempoCursos2::after {
+  content: "72h";
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  top: 7rem;
+  right: 2rem;
+  color: gray;
+  z-index: 999;
+}
+
+.formacaoExtras h3 {
+  color: rgb(255, 255, 255);
+  font-size: 1.6rem;
+}
+
+.formacaoExtras .iconeIdiomas::before {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url(./img/idiomas.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 12.2rem;
+  left: -2.5rem;
+  z-index: 999;
+}
+
+.formacaoExtras .textoIdiomas1::before {
+  content: "/Fluente";
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  color: gray;
+  top: 15.4rem;
+  left: 4.7rem;
+  z-index: 999;
+}
+
+.formacaoExtras .textoIdiomas2::before {
+  content: "/Intermediário";
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  color: gray;
+  top: 18.9rem;
+  left: 7rem;
+  z-index: 999;
+}
+
+.footer {
+  background: black;
+  grid-template-columns: 1fr 1fr;
+  flex-wrap: wrap;
+  padding-top: 3rem;
+  max-width: 2500px;
+  display: grid;
+}
+
+.textoContato {
+  grid-template-rows: 1fr 1fr;
+  display: grid;
+  position: relative;
+}
+
+.textoContato h2::before {
+  content: "";
+  display: block;
+  background-image: url(./img/detalhe.svg);
+  background-repeat: no-repeat;
+  z-index: 999;
+  height: 10.2rem;
+  width: 10.2rem;
+  top: -7rem;
+  left: 2.6rem;
+  position: absolute;
+}
+
+.textoContato h2 {
+  color: gray;
+  padding-left: 5rem;
+  max-width: 45ch;
+  font-size: 1.5rem;
+  padding-top: 5rem;
+}
+
+.textoContato h3 {
+  color: gray;
+  padding-left: 5rem;
+  max-width: 45ch;
+  font-size: 1.5rem;
+  padding-top: 5rem;
+}
+
+.contatos {
+  color: white;
+  display: flex;
+  font-size: 2rem;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 3rem;
+  text-decoration: none;
+}

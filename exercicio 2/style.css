@@ -1,0 +1,58 @@
+.produto {
+  font-size: 30px;
+}
+
+.amarelo {
+  color: #febe01;
+}
+
+.divisao {
+  width: 900px;
+  margin: 30px;
+  padding: 10px;
+  padding-left: 25px;
+}
+
+div {
+  background-color: #111;
+  color: white;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  border-radius: 4px;
+  margin: 60px;
+  margin-top: 80px;
+  font-size: 50px;
+}
+
+h3 {
+  color: #b2b2b2;
+}
+
+html {
+  background-color: green;
+}
+
+.carro {
+  background-color: #febe01;
+  color: #332200;
+  width: 140px;
+  height: 50px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.bicicleta {
+  background-color: #febe01;
+  color: #332200;
+  width: 160px;
+  height: 50px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+}
