@@ -1,0 +1,46 @@
+.catalog-h1 {
+  margin: 5rem;
+  margin-bottom: 3rem;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.catalog-span {
+  color: rgb(255, 174, 0);
+}
+
+.catalog-list {
+  display: flex;
+  gap: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.catalog-product img {
+  width: auto;
+  height: 80%;
+  border-radius: 6px;
+}
+
+.catalog-product h3 {
+  font-size: 3.7rem;
+  margin: 1.2rem;
+  position: relative;
+}
+
+.catalog-product h3::before {
+  content: "";
+  height: 8px;
+  width: 15px;
+  background-color: rgb(255, 174, 0);
+  position: absolute;
+  z-index: 999;
+  top: 30px;
+  left: -18px;
+}
+
+.catalog-product p {
+  font-size: 1.5rem;
+  color: rgb(41, 41, 41);
+  margin-left: 1.2rem;
+}

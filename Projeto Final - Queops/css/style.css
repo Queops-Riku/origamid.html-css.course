@@ -1,0 +1,10 @@
+@import "../css/global/footer.css";
+@import "../css/global/header.css";
+@import "../css/global/global.css";
+
+@import "../css/home/start.css";
+@import "../css/home/catalog.css";
+@import "../css/home/tecnologies.css";
+@import "../css/home/partners.css";
+@import "../css/home/quote.css";
+@import "../css/home/insurance.css";

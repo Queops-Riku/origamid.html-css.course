@@ -1,0 +1,71 @@
+.tecnologies-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 1400px;
+  margin-top: 15rem;
+  background-color: black;
+  box-shadow:
+    inset 0px -150px rgb(255, 255, 255),
+    inset 0px 150px rgb(255, 255, 255);
+}
+
+.tecnologies-text {
+  align-self: center;
+  margin-left: 5rem;
+}
+
+.tecnologies-text h3 {
+  color: rgb(105, 105, 105);
+  font-size: 1.7rem;
+  max-width: 45ch;
+  margin-bottom: 2rem;
+}
+
+.tecnologies-text h2 {
+  color: rgb(255, 255, 255);
+  font-size: 6rem;
+  max-width: 15ch;
+  margin-bottom: 3rem;
+}
+
+.tecnologies-text a {
+  color: rgb(255, 174, 0);
+  font-size: 2rem;
+  position: relative;
+}
+
+.tecnologies-text a::after {
+  content: "";
+  height: 5px;
+  width: 356px;
+  background-color: rgb(255, 174, 0);
+  position: absolute;
+  z-index: 999;
+  top: 50px;
+  left: 0px;
+}
+
+.tecnologies-div2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5rem;
+}
+
+.tecnologies-div2 h3 {
+  color: white;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.tecnologies-div2 p {
+  color: rgb(105, 105, 105);
+  max-width: 30ch;
+  font-size: 1.2rem;
+}
+
+.tecnologies-image img {
+  height: 100%;
+  width: 90%;
+  object-fit: cover;
+  border-radius: 6px;
+}

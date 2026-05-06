@@ -1,0 +1,53 @@
+.title-div {
+  background: rgb(0, 0, 0);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: inset 0px -100px rgb(255, 255, 255);
+  height: 900px;
+}
+
+.title-description {
+  margin-left: 5rem;
+  margin-top: 13rem;
+}
+
+.title-description h1 {
+  color: rgb(230, 230, 230);
+  font-size: 6rem;
+  max-width: 15ch;
+  margin-bottom: 3rem;
+}
+
+.title-span {
+  color: rgb(255, 174, 0);
+}
+
+.title-description h2 {
+  color: rgb(179, 179, 179);
+  margin-bottom: 1.2rem;
+  font-size: 2rem;
+  max-width: 45 ch;
+  margin-bottom: 3rem;
+}
+
+.title-description button {
+  height: 4.5rem;
+  width: 17rem;
+  background-color: rgb(255, 174, 0);
+  font-size: 1.5rem;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.title-image {
+  display: flex;
+  align-self: flex-start;
+}
+
+.title-image img {
+  margin-left: 2.7rem;
+  height: 100%;
+  width: 90%;
+  object-fit: cover;
+  border-radius: 6px;
+}

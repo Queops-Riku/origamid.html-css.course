@@ -1,0 +1,24 @@
+.header-div {
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 3rem;
+}
+
+.header-img img {
+  min-width: max-content;
+}
+
+.header-list {
+  display: flex;
+  gap: 5rem;
+  font-size: 2rem;
+}
+
+.header-link {
+  color: white;
+}
