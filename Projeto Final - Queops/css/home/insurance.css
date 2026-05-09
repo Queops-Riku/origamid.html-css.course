@@ -1,23 +1,41 @@
 .insurance {
-  margin: 5rem;
-  margin-bottom: 7rem;
+  padding: 5rem;
   font-size: 5rem;
   font-weight: bold;
+  background-color: rgb(19, 19, 19);
+  color: rgb(255, 255, 255);
 }
 
 .insurance-div {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 1000px;
+  height: 700px;
   background-color: rgb(19, 19, 19);
 }
 
 .insurance-silver {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr;
-  height: 500px;
-  width: 800px;
+  height: 480px;
+  width: 700px;
   background-color: rgb(0, 0, 0);
+  border-radius: 6px;
+  align-self: center;
+  justify-self: center;
+  margin-left: 8rem;
+  position: relative;
+}
+
+.insurance-silver::before {
+  content: "";
+  background-image: url(../../img/dec/bottom-left.svg);
+  background-repeat: no-repeat;
+  height: 90px;
+  width: 93px;
+  position: absolute;
+  z-index: 999;
+  bottom: -110px;
+  left: -35px;
 }
 
 .insurance-silver-text {
@@ -25,14 +43,123 @@
 }
 
 .insurance-silver-text h2 {
-  color: rgb(66, 66, 66);
+  color: rgb(138, 138, 138);
+  font-size: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .insurance-silver-text h3 {
   color: rgb(255, 255, 255);
+  margin-bottom: 2rem;
+  position: relative;
 }
 
-.insurance-silver-text a {
+.insurance-silver-text h3::before {
+  content: "";
+  background-image: url(../../img/icones/lista.svg);
+  background-repeat: no-repeat;
+  height: 9px;
+  width: 13px;
+  position: absolute;
+  z-index: 999;
+  top: 7px;
+  left: -18px;
+}
+
+.insurance-silver-text button {
+  border: none;
+  margin-top: 1rem;
   color: rgb(255, 255, 255);
+  height: 3.5rem;
+  width: 13rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
   background-color: rgb(66, 66, 66);
+  font-weight: bold;
+}
+
+.insurance-silver-price {
+  margin-left: auto;
+  text-align: right;
+  margin-top: 3rem;
+  margin-right: 2rem;
+}
+
+.insurance-silver-price h4 {
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+.insurance-silver-price span {
+  color: rgb(138, 138, 138);
+}
+
+.insurance-gold {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  height: 600px;
+  width: 700px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 6px;
+  align-self: center;
+  justify-self: center;
+  margin-right: 8rem;
+}
+
+.insurance-gold-text {
+  margin-left: 5rem;
+}
+
+.insurance-gold-text h2 {
+  color: rgb(255, 174, 0);
+  font-size: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.insurance-gold-text h3 {
+  color: rgb(255, 255, 255);
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.insurance-gold-text h3::before {
+  content: "";
+  background-image: url(../../img/icones/lista.svg);
+  background-repeat: no-repeat;
+  height: 9px;
+  width: 13px;
+  position: absolute;
+  z-index: 999;
+  top: 7px;
+  left: -18px;
+}
+
+.insurance-gold-text button {
+  border: none;
+  margin-top: 1rem;
+  color: rgb(0, 0, 0);
+  height: 3.5rem;
+  width: 13rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  background-color: rgb(255, 174, 0);
+  font-weight: bold;
+}
+
+.insurance-gold-price {
+  margin-left: auto;
+  text-align: right;
+  margin-top: 3rem;
+  margin-right: 2rem;
+}
+
+.insurance-gold-price h4 {
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+.insurance-gold-price span {
+  color: rgb(138, 138, 138);
 }
