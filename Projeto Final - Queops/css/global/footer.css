@@ -34,7 +34,19 @@
   left: -0px;
 }
 
+.networks {
+  display: flex;
+  gap: 3rem;
+}
+
 .footer-text li {
   color: rgb(138, 138, 138);
   margin-bottom: 1rem;
+}
+
+.rights {
+  color: rgb(138, 138, 138);
+  margin-top: 4rem;
+  margin-left: 10rem;
+  padding-bottom: 2rem;
 }

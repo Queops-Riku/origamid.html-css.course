@@ -1,0 +1,146 @@
+.bicycles-title {
+  background: rgb(14, 14, 14);
+  padding-left: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  font-weight: bold;
+}
+
+.bicycles-title p {
+  color: rgb(138, 138, 138);
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.bicycles-title p::after {
+  position: absolute;
+  content: "";
+  background-image: url(../../img/dec/top-right.svg);
+  background-repeat: no-repeat;
+  height: 99px;
+  width: 99px;
+  z-index: 999;
+  top: -20px;
+  right: 40px;
+}
+
+.bicycles-title h2 {
+  color: rgb(255, 255, 255);
+  font-size: 4rem;
+}
+
+.bicycle-img {
+  display: flex;
+  align-self: center;
+  height: 500px;
+  width: 900px;
+}
+
+.bicycle-img img {
+  margin-left: 2.7rem;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.bicycles-list {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.bicycle-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 700px;
+}
+
+.bicycle-item-variant {
+  background-color: black;
+  box-shadow: inset 500px 0px rgb(255, 255, 255);
+}
+
+.bicycle-text-variant h3 {
+  color: white;
+}
+
+.bicycle-text-variant p {
+  color: rgb(156, 156, 156);
+}
+
+.bicycle-text-variant li {
+  color: rgb(156, 156, 156);
+}
+
+.bicycle-text {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.bicycle-text h3 {
+  font-size: 2rem;
+  position: relative;
+}
+
+.bicycle-text h3::before {
+  position: absolute;
+  content: "";
+  height: 9px;
+  width: 15px;
+  z-index: 999;
+  background-color: rgb(255, 174, 0);
+  top: -20px;
+  left: 4px;
+}
+
+.bicycle-text h3::after {
+  position: absolute;
+  content: "";
+  background-image: url(../../img/dec/top-right.svg);
+  background-repeat: no-repeat;
+  height: 99px;
+  width: 99px;
+  z-index: 999;
+  top: -60px;
+  right: 40px;
+}
+
+.bicycle-text p {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+  max-width: 60ch;
+}
+
+.bicycle-text li {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 2rem;
+}
+
+.bicycle-item h3 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.bicycle-text {
+  align-self: center;
+  margin-left: 3rem;
+}
+
+.bicycle-description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bicycle-button button {
+  background-color: rgb(255, 174, 0);
+  margin-right: 5rem;
+  margin-top: 10rem;
+  height: 4rem;
+  width: 13rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}

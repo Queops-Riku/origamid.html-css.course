@@ -9,10 +9,6 @@
   padding-bottom: 3rem;
 }
 
-.header-img img {
-  min-width: max-content;
-}
-
 .header-list {
   display: flex;
   gap: 5rem;
